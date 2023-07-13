@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 23px;
+}
+h1 {
+  width: fit-content;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
+}
+
+.event-card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem 0rem;
+  padding: 20px;
+}
+
+.event-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--background-color);
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.eventImage {
+  border-radius: 15px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+}

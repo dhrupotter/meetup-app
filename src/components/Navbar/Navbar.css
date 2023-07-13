@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: none;
+  padding: 5px 25px;
+}
+
+hr {
+  width: 97%;
+}
+
+img {
+  width: 60px;
+}
+
+h1 {
+  margin: 0px;
+  color: var(--primary-color);
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo img {
+  fill: var(--primary-color);
+  width: 80px;
+  object-fit: cover;
+}
+
+.nav-tab {
+  margin: 0px 5px;
+  font-size: 20px;
+  font-weight: bold;
+
+  color: var(--primary-color);
+  border: 1px solid transparent;
+}
